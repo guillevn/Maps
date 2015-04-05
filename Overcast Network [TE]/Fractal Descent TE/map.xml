@@ -10,6 +10,7 @@
 <timelock>on</timelock>
 <time result="objectives">1h</time>
 <include src=../house-of-cores.xml"/>
+<include src=../tutorial.xml"/>
 <teams>
     <team color="dark red" max="32">Red Team</team>
     <team color="blue" max="32">Blue Team</team>
