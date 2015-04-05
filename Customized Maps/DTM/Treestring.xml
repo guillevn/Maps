@@ -22,3 +22,18 @@
         <item slot="4" amount="64">17</item>
         <item slot="28" amount="1">arrow</item>
     </kit>
+<spawns>
+	<spawns kit="cyan">
+		<spawn team="cyan" kit="cyan" yaw="90">
+			<point>30,10,-11</point>
+		</spawn>
+	</spawns>
+	<spawns kit="purple">
+		<spawn team="purple" kit="purple" yaw="-90">
+			<point>-68,10,-11</point>
+		</spawn>
+	</spawns>
+	<default kit="obs" yaw="90">
+		<point>-20,60,-12</point>
+	</default>
+</spawns>
