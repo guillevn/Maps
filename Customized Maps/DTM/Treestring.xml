@@ -9,3 +9,16 @@
 <contributors>
     <contributor uuid="8d071274-2984-4ff3-aa3a-17aba7e40887" contribution="XML"/> <!-- vYuri -->
 </contributors>
+<teams>
+    <team color="10" max="12">Cyan</team>
+    <team color="10" max="12">Purple</team>
+</teams>
+<kits>
+    <kit name="spawn">
+        <item slot="0" damage="-3000">stone sword</item>
+        <item slot="1" enchantment="arrow infinite:1">bow</item>
+        <item slot="2" damage="-3000">diamond pickaxe</item>
+        <item slot="3" damage="-3000">stone axe</item>
+        <item slot="4" amount="64">17</item>
+        <item slot="28" amount="1">arrow</item>
+    </kit>
