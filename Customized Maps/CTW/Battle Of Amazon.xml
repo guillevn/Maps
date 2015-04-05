@@ -8,8 +8,29 @@
   </authors>
   <contributors>
     <contributor uuid="f97f1394-38c3-468b-885d-e8b39dc40919" contribution="XML"/>
-    <contributor uuid="ef02bccf-636c-4901-8386-fd96f06b20ee" contribution="Building"
+    <contributor uuid="ef02bccf-636c-4901-8386-fd96f06b20ee" contribution="Building"/>
   </contributors>
+  <wools>
+    <wool team="red" color="blue" location="77.5,8,-45.5">
+      <monument>
+        <block>80,5,-45</block>
+      </monument>
+    </wool>
+    <wool team="blue" color="red" location="76.5,8,66.5">
+      <monument>
+        <block>79.5,5,66</block>
+      </monument>
+    </wool>
+  </wools>
+  <spawns>
+    <spawns team="red" kit="red-spawn">
+      <spawn>
+        <regions yaw="7">
+          <cuboid min="77.5,7,-31.5" max="77.5,9,-31.5"/>
+        </regions>
+      </spawn>
+    </spawns>
+  </spawns>
   <teams>
     <team color="dark red" max="16">Red</team>
     <team color="blue" max="16">Blue</team>
