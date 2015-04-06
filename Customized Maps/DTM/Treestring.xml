@@ -38,3 +38,16 @@
 		<point>-20,60,-12</point>
 	</default>
 </spawns>
+<filters>
+        <filter name="only-cyan">
+                <team>cyan</team>
+        </filter>
+        <filter name="only-purple">
+                <team>purple</team>
+        </filter>
+        <filter name="no-void">
+                <deny>
+                        <void/>
+                </deny>
+        </filter>
+<filters>
