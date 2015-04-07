@@ -10,8 +10,8 @@
     <contributor uuid="8d071274-2984-4ff3-aa3a-17aba7e40887" contribution="XML"/> <!-- vYuri -->
 </contributors>
 <teams>
-    <team color="10" max="12">Cyan</team>
-    <team color="10" max="12">Purple</team>
+    <team color="10" max-overfill="12">Cyan</team>
+    <team color="10" max-overfill="12">Purple</team>
 </teams>
 <kits>
     <kit name="spawn">
