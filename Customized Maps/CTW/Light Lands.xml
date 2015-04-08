@@ -1,1 +1,42 @@
-
+<map proto="1.3.6">
+  <include src="tutorial.xml"/>
+  <name>Light Lands</name>
+  <version>1.0</version>
+  <objetive>
+    Caputre both wool and return them safely to your victory monument.
+  </objetive>
+  <authors>
+    <author uuid="1e79acd3-562e-42d4-9a6c-e923f5284329" contribution="Map design and building"/>
+    <author uuid="6aa9a1e1-4743-4b80-8426-c2ebeb95b77e" contribution="Building"/>
+  </authors>
+  <contributors>
+    <contributor uuid="f97f1394-38c3-468b-885d-e8b39dc40919" contribution="XML feedback"/>
+  </contributors>
+  <teams>
+    <team color="dark red" max="25">Red</team>
+    <team color="blue" max="25">Blue</team>
+  </teams>
+  <kits>
+    <kit name="spawn">
+      <item slot="0">stone sword</item>
+      <item slot="1" enchantment="arrow infinite:1">bow</item>
+      <item slot="2">iron pickaxe</item>
+      <item slot="3" amount="64">baked potato</item>
+      <item slot="4" amount="64">glass</item>
+      <item slot="28" amount="1">arrow</item>
+      <item slot="5" amount="64">log</item>
+    </kit>
+    <kit name="red" parents="spawn">
+      <helmet color="993333">leather helmet</helmet>
+      <chestplate color="993333" enchatment="protection projectile:1">leather chestplate</chestplate>
+      <leggings color="993333">leather leggings</leggings>
+      <boots color="993333">leather boots</boots>
+    </kit>
+    <kit name="blue" parents="spawn">
+      <helmet color="334CB2">leather helmet</helmet>
+      <chestplate color="334CB2" enchatment="protection projectile:1">leather chestplate</chestplate>
+      <leggings color="334CB2">leather leggings</leggings>
+      <boots color="334CB2">leather boots</boots>
+    </kit>
+  </kits>
+</map>
